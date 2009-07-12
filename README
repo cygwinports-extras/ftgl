@@ -1,0 +1,213 @@
+ftgl
+------------------------------------------
+FTGL is a C/C++ library to enable developers to use arbitrary fonts in 
+their OpenGL applications. FTGL uses the Freetype font library to open 
+and decode the fonts. It then takes that output and stores it in a 
+format most efficient for OpenGL rendering.
+
+Runtime requirements:
+  cygwin-1.7.0-50
+  libfreetype6-2.3.9-1
+  libgcc1-4.3.2-2
+  libGL1-7.2-10
+  libGLU1-7.2-10
+  libstdc++6-4.3.2-2
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-10
+  automake1.10-1.10.2-10
+  binutils-20080624-2
+  cygport-0.9.6-1
+  doxygen-1.5.5-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  libglut-devel-2.4.0-1
+  libtool-2.2.7a-13
+  make-3.81-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://ftgl.wiki.sourceforge.net/
+
+Canonical download:
+  http://sourceforge.net/projects/ftgl/files/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ftgl-2.1.3_rc5-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ftgl-2.1.3_rc5-X.cygport all
+
+This will create:
+  /usr/src/ftgl-2.1.3_rc5-X-src.tar.bz2
+  /usr/src/ftgl-2.1.3_rc5-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libftgl2)
+  /usr/bin/cygftgl-2.dll
+  /usr/share/doc/ftgl/AUTHORS
+  /usr/share/doc/ftgl/BUGS
+  /usr/share/doc/ftgl/COPYING
+  /usr/share/doc/ftgl/ChangeLog
+  /usr/share/doc/ftgl/NEWS
+  /usr/share/doc/ftgl/README
+  /usr/share/doc/ftgl/TODO
+  /usr/share/doc/ftgl/projects_using_ftgl.txt
+
+(libftgl-devel)
+  /usr/include/FTGL/FTBBox.h
+  /usr/include/FTGL/FTBitmapGlyph.h
+  /usr/include/FTGL/FTBuffer.h
+  /usr/include/FTGL/FTBufferFont.h
+  /usr/include/FTGL/FTBufferGlyph.h
+  /usr/include/FTGL/FTExtrdGlyph.h
+  /usr/include/FTGL/FTFont.h
+  /usr/include/FTGL/FTGLBitmapFont.h
+  /usr/include/FTGL/FTGLExtrdFont.h
+  /usr/include/FTGL/FTGLOutlineFont.h
+  /usr/include/FTGL/FTGLPixmapFont.h
+  /usr/include/FTGL/FTGLPolygonFont.h
+  /usr/include/FTGL/FTGLTextureFont.h
+  /usr/include/FTGL/FTGlyph.h
+  /usr/include/FTGL/FTLayout.h
+  /usr/include/FTGL/FTOutlineGlyph.h
+  /usr/include/FTGL/FTPixmapGlyph.h
+  /usr/include/FTGL/FTPoint.h
+  /usr/include/FTGL/FTPolyGlyph.h
+  /usr/include/FTGL/FTSimpleLayout.h
+  /usr/include/FTGL/FTTextureGlyph.h
+  /usr/include/FTGL/ftgl.h
+  /usr/lib/libftgl.a
+  /usr/lib/libftgl.dll.a
+  /usr/lib/libftgl.la
+  /usr/lib/pkgconfig/ftgl.pc
+  /usr/share/doc/ftgl/html/FTBBox_8h-source.html
+  /usr/share/doc/ftgl/html/FTBBox_8h.html
+  /usr/share/doc/ftgl/html/FTBitmapGlyph_8h-source.html
+  /usr/share/doc/ftgl/html/FTBitmapGlyph_8h.html
+  /usr/share/doc/ftgl/html/FTBufferFont_8h-source.html
+  /usr/share/doc/ftgl/html/FTBufferFont_8h.html
+  /usr/share/doc/ftgl/html/FTBufferGlyph_8h-source.html
+  /usr/share/doc/ftgl/html/FTBufferGlyph_8h.html
+  /usr/share/doc/ftgl/html/FTBuffer_8h-source.html
+  /usr/share/doc/ftgl/html/FTBuffer_8h.html
+  /usr/share/doc/ftgl/html/FTExtrdGlyph_8h-source.html
+  /usr/share/doc/ftgl/html/FTExtrdGlyph_8h.html
+  /usr/share/doc/ftgl/html/FTFont_8h-source.html
+  /usr/share/doc/ftgl/html/FTFont_8h.html
+  /usr/share/doc/ftgl/html/FTGLBitmapFont_8h-source.html
+  /usr/share/doc/ftgl/html/FTGLBitmapFont_8h.html
+  /usr/share/doc/ftgl/html/FTGLExtrdFont_8h-source.html
+  /usr/share/doc/ftgl/html/FTGLExtrdFont_8h.html
+  /usr/share/doc/ftgl/html/FTGLOutlineFont_8h-source.html
+  /usr/share/doc/ftgl/html/FTGLOutlineFont_8h.html
+  /usr/share/doc/ftgl/html/FTGLPixmapFont_8h-source.html
+  /usr/share/doc/ftgl/html/FTGLPixmapFont_8h.html
+  /usr/share/doc/ftgl/html/FTGLPolygonFont_8h-source.html
+  /usr/share/doc/ftgl/html/FTGLPolygonFont_8h.html
+  /usr/share/doc/ftgl/html/FTGLTextureFont_8h-source.html
+  /usr/share/doc/ftgl/html/FTGLTextureFont_8h.html
+  /usr/share/doc/ftgl/html/FTGlyph_8h-source.html
+  /usr/share/doc/ftgl/html/FTGlyph_8h.html
+  /usr/share/doc/ftgl/html/FTLayout_8h-source.html
+  /usr/share/doc/ftgl/html/FTLayout_8h.html
+  /usr/share/doc/ftgl/html/FTOutlineGlyph_8h-source.html
+  /usr/share/doc/ftgl/html/FTOutlineGlyph_8h.html
+  /usr/share/doc/ftgl/html/FTPixmapGlyph_8h-source.html
+  /usr/share/doc/ftgl/html/FTPixmapGlyph_8h.html
+  /usr/share/doc/ftgl/html/FTPoint_8h-source.html
+  /usr/share/doc/ftgl/html/FTPoint_8h.html
+  /usr/share/doc/ftgl/html/FTPolyGlyph_8h-source.html
+  /usr/share/doc/ftgl/html/FTPolyGlyph_8h.html
+  /usr/share/doc/ftgl/html/FTSimpleLayout_8h-source.html
+  /usr/share/doc/ftgl/html/FTSimpleLayout_8h.html
+  /usr/share/doc/ftgl/html/FTTextureGlyph_8h-source.html
+  /usr/share/doc/ftgl/html/FTTextureGlyph_8h.html
+  /usr/share/doc/ftgl/html/annotated.html
+  /usr/share/doc/ftgl/html/classFTBBox.html
+  /usr/share/doc/ftgl/html/classFTBitmapFont.html
+  /usr/share/doc/ftgl/html/classFTBitmapFont.png
+  /usr/share/doc/ftgl/html/classFTBitmapGlyph.html
+  /usr/share/doc/ftgl/html/classFTBitmapGlyph.png
+  /usr/share/doc/ftgl/html/classFTBuffer.html
+  /usr/share/doc/ftgl/html/classFTBufferFont.html
+  /usr/share/doc/ftgl/html/classFTBufferFont.png
+  /usr/share/doc/ftgl/html/classFTBufferGlyph.html
+  /usr/share/doc/ftgl/html/classFTBufferGlyph.png
+  /usr/share/doc/ftgl/html/classFTExtrudeFont.html
+  /usr/share/doc/ftgl/html/classFTExtrudeFont.png
+  /usr/share/doc/ftgl/html/classFTExtrudeGlyph.html
+  /usr/share/doc/ftgl/html/classFTExtrudeGlyph.png
+  /usr/share/doc/ftgl/html/classFTFont.html
+  /usr/share/doc/ftgl/html/classFTFont.png
+  /usr/share/doc/ftgl/html/classFTGlyph.html
+  /usr/share/doc/ftgl/html/classFTGlyph.png
+  /usr/share/doc/ftgl/html/classFTLayout.html
+  /usr/share/doc/ftgl/html/classFTLayout.png
+  /usr/share/doc/ftgl/html/classFTOutlineFont.html
+  /usr/share/doc/ftgl/html/classFTOutlineFont.png
+  /usr/share/doc/ftgl/html/classFTOutlineGlyph.html
+  /usr/share/doc/ftgl/html/classFTOutlineGlyph.png
+  /usr/share/doc/ftgl/html/classFTPixmapFont.html
+  /usr/share/doc/ftgl/html/classFTPixmapFont.png
+  /usr/share/doc/ftgl/html/classFTPixmapGlyph.html
+  /usr/share/doc/ftgl/html/classFTPixmapGlyph.png
+  /usr/share/doc/ftgl/html/classFTPoint.html
+  /usr/share/doc/ftgl/html/classFTPolygonFont.html
+  /usr/share/doc/ftgl/html/classFTPolygonFont.png
+  /usr/share/doc/ftgl/html/classFTPolygonGlyph.html
+  /usr/share/doc/ftgl/html/classFTPolygonGlyph.png
+  /usr/share/doc/ftgl/html/classFTSimpleLayout.html
+  /usr/share/doc/ftgl/html/classFTSimpleLayout.png
+  /usr/share/doc/ftgl/html/classFTTextureFont.html
+  /usr/share/doc/ftgl/html/classFTTextureFont.png
+  /usr/share/doc/ftgl/html/classFTTextureGlyph.html
+  /usr/share/doc/ftgl/html/classFTTextureGlyph.png
+  /usr/share/doc/ftgl/html/doxygen.css
+  /usr/share/doc/ftgl/html/doxygen.png
+  /usr/share/doc/ftgl/html/faq_8dox.html
+  /usr/share/doc/ftgl/html/files.html
+  /usr/share/doc/ftgl/html/ftgl-faq.html
+  /usr/share/doc/ftgl/html/ftgl-projects.html
+  /usr/share/doc/ftgl/html/ftgl-tutorial.html
+  /usr/share/doc/ftgl/html/ftgl_8dox.html
+  /usr/share/doc/ftgl/html/ftgl_8h-source.html
+  /usr/share/doc/ftgl/html/ftgl_8h.html
+  /usr/share/doc/ftgl/html/functions.html
+  /usr/share/doc/ftgl/html/functions_func.html
+  /usr/share/doc/ftgl/html/functions_rela.html
+  /usr/share/doc/ftgl/html/globals.html
+  /usr/share/doc/ftgl/html/globals_defs.html
+  /usr/share/doc/ftgl/html/globals_func.html
+  /usr/share/doc/ftgl/html/globals_type.html
+  /usr/share/doc/ftgl/html/hierarchy.html
+  /usr/share/doc/ftgl/html/index.html
+  /usr/share/doc/ftgl/html/namespaceFTGL.html
+  /usr/share/doc/ftgl/html/namespacemembers.html
+  /usr/share/doc/ftgl/html/namespacemembers_enum.html
+  /usr/share/doc/ftgl/html/namespacemembers_eval.html
+  /usr/share/doc/ftgl/html/namespaces.html
+  /usr/share/doc/ftgl/html/projects__using__ftgl_8txt.html
+  /usr/share/doc/ftgl/html/tab_b.gif
+  /usr/share/doc/ftgl/html/tab_l.gif
+  /usr/share/doc/ftgl/html/tab_r.gif
+  /usr/share/doc/ftgl/html/tutorial_8dox.html
+
+------------------
+
+Port Notes:
+
+----- version 2.1.3_rc5-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

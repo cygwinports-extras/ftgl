@@ -1,0 +1,8 @@
+category: X11
+requires: libfreetype6 libgcc1 libGL1 libGLU1 libstdc++6
+external-source: ftgl
+sdesc: "OpenGL font rendering library (runtime)"
+ldesc: "FTGL is a C/C++ library to enable developers to use arbitrary 
+fonts in their OpenGL applications. FTGL uses the Freetype font library 
+to open and decode the fonts. It then takes that output and stores it in 
+a format most efficient for OpenGL rendering."
