@@ -1,5 +1,5 @@
 category: X11
-requires: libftgl2 libfreetype-devel libGL-devel libGLU-devel libstdc++6-devel
+requires: libftgl2 libfreetype-devel libGL-devel libGLU-devel
 external-source: ftgl
 sdesc: "OpenGL font rendering library (development)"
 ldesc: "FTGL is a C/C++ library to enable developers to use arbitrary 
